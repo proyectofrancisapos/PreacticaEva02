@@ -1,0 +1,34 @@
+{
+  " hosting " : {
+    " público " : " público " ,
+    " encabezados " : [
+      {
+        " fuente " : " / ** " ,
+        " encabezados " : [
+          {
+            " key " : " Cache-Control " ,
+            " valor " : " sin caché, sin almacenamiento, debe revalidar "
+          },
+          {
+            " clave " : " Pragma " ,
+            " valor " : " sin caché "
+          },
+          {
+            " key " : " Caduca " ,
+            " valor " : " 0 "
+          }
+        ]
+      }
+    ],
+    " ignorar " : [
+      " firebase.json " ,
+      " ** /. * " ,
+      " ** / node_modules / ** "
+    ]
+  },
+  " emuladores " : {
+    " hosting " : {
+      " puerto " : 5000
+    }
+  }
+}
